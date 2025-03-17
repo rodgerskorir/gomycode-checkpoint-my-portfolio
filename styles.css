@@ -1,38 +1,86 @@
 /* Import Roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* Apply font to entire document */
-body {
-    font-family: 'Roboto', sans-serif;
+/* Reset Styles */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    
 }
 
-/* Style navigation bar */
+/* Style for entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+}
+
+/* Navigation Bar*/
 nav ul {
     list-style: none;
-    padding: 0;
-    text-align: center;
+    text-align: center;   
+    background-color: rgb(27, 37, 34);
+    padding: 20px;
+  
 }
 
 nav ul li {
     display: inline;
     margin: 0 15px;
+   
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+    
 }
 
-/* Center content in sections */
+/*  Sections */
 section {
     text-align: center;
     padding: 20px;
 }
+section h1{
+    font-size: 20px;
+    
 
-/* Style form inputs */
+}
+section h2{
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 5px;
+
+}
+section p{
+    font-style: italic;
+    padding: 5px;
+}
+section h4{
+    padding: 15px;
+}
+
+/* Table  */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Form Styles */
 input, textarea {
     width: 80%;
     padding: 8px;
@@ -41,7 +89,7 @@ input, textarea {
     border-radius: 4px;
 }
 
-/* Style submit button */
+/* Button Styles */
 button {
     background-color: black;
     color: white;
@@ -50,6 +98,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: grey;
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
