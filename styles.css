@@ -13,8 +13,7 @@
 /* Style for entire body */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
-    background-image: url('css/images.jpg');
+    background-color: rgb(204, 204, 204);
 }
 
 /* Navigation Bar*/
